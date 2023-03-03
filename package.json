@@ -36,7 +36,10 @@
   },
   "type": "module",
   "dependencies": {
+    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/typography": "^0.5.9",
     "@types/luxon": "^3.2.0",
-    "luxon": "^3.2.1"
+    "luxon": "^3.2.1",
+    "mdsvex": "^0.10.6"
   }
 }
