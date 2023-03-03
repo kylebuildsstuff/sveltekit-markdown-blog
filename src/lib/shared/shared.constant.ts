@@ -25,6 +25,14 @@ export const POSTS_LIST = [
     isFeatured: true
   },
   {
+    title: 'Comparing 5 cheapest text to speech AI voice generators (2023)',
+    url: '/comparing-5-best-cheapest-text-to-speech-ai-voice-generators-2023',
+    description: 'beep boop',
+    author: 'Kyle',
+    date: '2023-02-05',
+    isFeatured: true
+  },
+  {
     title: 'An orange a day keeps the doctor away',
     url: '/an-orange-a-day-keeps-the-doctor-away',
     description: 'Oranges are good for you',
