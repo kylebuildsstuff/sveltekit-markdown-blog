@@ -1,6 +1,7 @@
 <script lang="ts">
   import { onMount } from 'svelte';
 
+  import Navbar from '$lib/modules/navbar/navbar.svelte';
   import { defaultMetaDescription } from '$lib/shared/shared.constant';
   import { descriptionMetaTag$, titleTag$ } from '$lib/shared/shared.store';
   import { POSTS_LIST } from '$lib/shared/shared.constant';
@@ -16,6 +17,8 @@
     descriptionMetaTag$.set(defaultMetaDescription);
   });
 </script>
+
+<Navbar />
 
 <div class="relative bg-white px-4 pt-16 pb-20 sm:px-6 lg:px-8 lg:pb-28">
   <div class="relative mx-auto max-w-7xl">

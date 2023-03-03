@@ -9,21 +9,27 @@ export const defaultMetaDescription = `Posts on building stuff`;
  */
 export const POSTS_LIST = [
   {
-    title: 'Best online text to speech generators',
-    url: '/best-online-text-to-speech-generators',
-    description:
-      'A high-level view of features and pricing from the newest and best online text to speech generators on the market',
+    title: 'An apple a day keeps the doctor away',
+    url: '/an-apple-a-day-keeps-the-doctor-away',
+    description: 'Apples are good for you',
     author: 'Kyle',
     date: '2023-02-05',
     isFeatured: true
+  },
+  {
+    title: 'A pear a day keeps the doctor away',
+    url: '/a-pear-a-day-keeps-the-doctor-away',
+    description: 'Pears are good for you',
+    author: 'Kyle',
+    date: '2023-02-05',
+    isFeatured: true
+  },
+  {
+    title: 'An orange a day keeps the doctor away',
+    url: '/an-orange-a-day-keeps-the-doctor-away',
+    description: 'Oranges are good for you',
+    author: 'Kyle',
+    date: '2023-02-05',
+    isFeatured: false
   }
-  // {
-  //   title: 'Best free online text to speech generators',
-  //   url: '/best-free-online-text-to-speech-generators',
-  //   description:
-  //     'A high-level view of features and pricing from the newest and best free online text to speech generators on the market',
-  //   author: 'Kyle',
-  //   date: '2023-02-05',
-  //   isFeatured: true
-  // }
 ];

@@ -4,6 +4,7 @@
 
   import { defaultMetaDescription, defaultTitleTag } from '$lib/shared/shared.constant';
   import { descriptionMetaTag$, titleTag$ } from '$lib/shared/shared.store';
+  import Navbar from '$lib/modules/navbar/navbar.svelte';
 
   export let title = '';
   export let description = '';
@@ -17,6 +18,8 @@
     descriptionMetaTag$.set(description || defaultMetaDescription);
   });
 </script>
+
+<Navbar />
 
 <article>
   <div class="mx-auto max-w-6xl py-16 px-4 sm:pt-24 sm:px-6 lg:px-8">
